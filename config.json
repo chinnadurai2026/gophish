@@ -4,11 +4,7 @@
 		"use_tls": false,
 		"cert_path": "gophish_admin.crt",
 		"key_path": "gophish_admin.key",
-		"trusted_origins": [
-			"https://gophish-production-c15b.up.railway.app",
-			"http://localhost:3333",
-			"http://127.0.0.1:3333"
-		]
+		"trusted_origins": []
 	},
 	"phish_server": {
 		"listen_url": "0.0.0.0:80",
